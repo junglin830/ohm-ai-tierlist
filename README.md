@@ -14,7 +14,7 @@ Single-file, zero-build HTML leaderboard for tracking the fast-moving 2026 AI mo
 - Interactive tier list (T0–T3) with a live-adjustable weighting engine (logic/speed/price sliders) that re-sorts models in real time.
 - Radar chart comparison across six scoring dimensions per category.
 - Token-cost calculator for estimating monthly spend against the current top model.
-- All data points are sourced from public benchmarks, official pricing pages, and reputable tech media — every model card links back to its citations at the bottom of the page.
+- All data points are sourced from public benchmarks (e.g. Artificial Analysis indices), official release notes and pricing pages. Since v9.2 the in-page source cards were removed to keep the page clean; scores from different leaderboards are never mixed into one number.
 
 ## Usage
 
@@ -24,9 +24,13 @@ This is a single static HTML file with no build step. Open `index.html` directly
 python -m http.server 8080
 ```
 
+## Current version
+
+**v9.3.1 — calibrated 2026-10-18** (all six categories), e.g. Gemini 4 Argon, Claude Haiku 5.5, DeepSeek V4.1 Flash, Meta Muse Wonder / Wonder Full, Nano Banana 2.1, Kling 4.0, Suno v6, OpenClaw v2026.10.4.
+
 ## Data freshness
 
-Rankings are manually curated and periodically audited against public sources (see in-page footer for the latest calibration date per category). This is a subjective, editorially-curated composite score for personal/team reference — not an official benchmark authority. Treat the underlying benchmark percentages (cited inline) as the ground truth, and the tier placement as one team's opinion.
+Rankings are manually curated and periodically audited against public sources (roughly monthly; see the in-page header/footer for the latest calibration date). This is a subjective, editorially-curated composite score for personal/team reference — not an official benchmark authority. Treat the underlying benchmark percentages (cited inline) as the ground truth, and the tier placement as one team's opinion.
 
 ## License
 
