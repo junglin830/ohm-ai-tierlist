@@ -18,6 +18,8 @@ Single-file, zero-build HTML leaderboard for tracking the fast-moving 2026 AI mo
 
 ## Usage
 
+**Live page:** https://go.yuemoon-osclaw.workers.dev/tierlist (hosted on our own server).
+
 This is a single static HTML file with no build step. Open `index.html` directly in a browser, or serve it with any static file server:
 
 ```bash
